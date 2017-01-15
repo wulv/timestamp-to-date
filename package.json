@@ -10,7 +10,7 @@
     "url": "https://github.com/wulv/timestamp-to-date.git",
     "type": "git"
   },
-  "author": "吴律 <wulv@youzan.com>",
+  "author": "wulv <wulv@live.cn>",
   "license": "MIT",
   "devDependencies": {
     "tap": "^9.0.3"
