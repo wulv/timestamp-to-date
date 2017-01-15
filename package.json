@@ -1,0 +1,18 @@
+{
+  "name": "timestamp-to-date",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "description": "Returns date on YYYY-mm-DD format from timestamp",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/wulv/timestamp-to-date.git",
+    "type": "git"
+  },
+  "author": "吴律 <wulv@youzan.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tap": "^9.0.3"
+  }
+}

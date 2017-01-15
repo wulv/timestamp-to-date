@@ -1,8 +1,8 @@
-import datePadding from './lib/date-padding'
+const datePadding = require('./lib/date-padding');
 
-module.exports = (timestamp,format = 'yyyy-MM-dd HH:mm:ss') => {
+module.exports = (timestamp,format ) => {
   const date = new Date(parseInt(timestamp, 10))
-  let dateObj = {}
+  var dateObj = {}
   dateObj.yyyy = date.getFullYear()
   dateObj.MM = datePadding(date.getMonth() + 1)
   dateObj.dd = datePadding(date.getDate())
@@ -11,7 +11,7 @@ module.exports = (timestamp,format = 'yyyy-MM-dd HH:mm:ss') => {
   dateObj.ss = datePadding(date.getSeconds())
   for (var variable in dateObj) {
   	if (dateObj.hasOwnProperty(variable)) {
-  		format.replace(variable, dateObj[variable])
+  		format = format.replace(variable, dateObj[variable])
   	}
   }
   return format
