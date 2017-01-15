@@ -3,7 +3,7 @@ Returns date on 'yyyy-MM-dd HH:mm:ss' format from timestamp
 ## Installation
 
 ```sh
-$ npm i date-from-timestamp
+$ npm i timestamp-to-date
 ```
 
 ## Usage
