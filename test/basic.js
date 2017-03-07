@@ -1,5 +1,5 @@
 const tap = require('tap')
-const timestampToDate = require('../index');
+const timestampToDate = require('../lib/index');
 const datePadding = require('../lib/date-padding');
 
 tap.equal('01', datePadding(1), 'It pads single digit');
