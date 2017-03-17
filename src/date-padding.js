@@ -1,7 +1,7 @@
 module.exports = (date) => {
-  var padded = date.toString()
+  let padded = date.toString();
   if (padded.length === 1) {
-    padded = '0' + date.toString()
+    padded = `0${date.toString()}`;
   }
-  return padded
-}
+  return padded;
+};
